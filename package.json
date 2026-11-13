@@ -1,0 +1,14 @@
+{
+  "name": "seguridad-computo-rbac",
+  "version": "1.0.0",
+  "description": "Sistema de Autenticación y Autorización Basado en Roles y Permisos (RBAC) - Seguridad en Cómputo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "backup": "node scripts/backup.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  }
+}
